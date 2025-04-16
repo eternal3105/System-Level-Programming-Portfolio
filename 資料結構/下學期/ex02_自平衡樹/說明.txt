@@ -1,0 +1,13 @@
+1.2-3 Tree
+  a.根據校名建樹
+  b.若同校出現多筆資料會用left或right vector記錄
+  c.插入新資料時會自動進行split與合併，維持 2-3 tree 的平衡
+2.AVL Tree
+  a.根據科系名稱建樹
+  b.用標準的AVL rotation方法RR、LL、RL、LR平衡樹
+  c.若有重複科系會存在same鏈結上
+3.Intersection Query
+  1.只輸入校名 → 查找 2-3 Tree，輸出該校所有資料
+  2.只輸入系名 → 查找 AVL Tree，輸出該系所有資料
+  3.皆輸入 * 符號 → 顯示所有資料
+  4.輸入特定校名與系名 → 在兩棵樹交叉比對，輸出同時符合的資料

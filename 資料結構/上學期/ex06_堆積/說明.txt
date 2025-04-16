@@ -1,0 +1,8 @@
+1.建立最大堆積
+  a.讀入資料放到暫存vector
+  b.將暫存vector資料一筆一筆放入主vector。同時判斷父節點與子節點大小，有需要就交換
+2.建立DEAP(Double-Ended Heap，左子樹為min-heap，右子樹為max-heap)
+  a.讀入資料放到暫存vector
+  b.建立虛擬根
+  c.將暫存vector資料放入主vector
+  d.計算樹層並判斷此筆資料要放在左子樹還是右子樹
