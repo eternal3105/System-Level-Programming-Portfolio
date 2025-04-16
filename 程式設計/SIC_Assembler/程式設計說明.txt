@@ -1,0 +1,17 @@
+1.開發平台:Windows10
+
+2.使用開發環境:Dev-C++ 5.11
+
+3.所選擇的組合語言:SIC、SIC/XE
+
+4.程式設計:其實function欄後都有註解該function做了甚麼事，流程大概是:
+(1)將檔案讀入
+(2)將讀入的指令拆分成label、ins、operand
+(3)將operand添加詳細資訊(@、#、=這些)
+(4)開始建立每條指令的loc
+(5)依照建立的loc去翻譯每條指令的Object Code
+(6)在螢幕上印出並寫檔
+
+5.未完成的功能:syntax error、LTORG(皆是有框架但還沒實作)
+
+6.要使用的話，code跟input需要放在同一層
