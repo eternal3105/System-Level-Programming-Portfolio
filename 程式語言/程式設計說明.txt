@@ -1,0 +1,46 @@
+簡易版C語言語法分析器
+設計目的:
+1.分析、判斷輸入的程式碼是定義還是敘述
+2.支援函式定義、變數宣告、運算式判斷、語法錯誤拋出
+
+大致上可分為四大部分
+A. 語法樹
+    ├─ 模擬語法結構
+    └─ 解決syntactical error、semantic error
+
+
+B. 定義 / 敘述判斷
+    ├─ 判斷成定義
+    │      ├─ 儲存至Variable_Table / Function_Table
+    │      └─ 更新Variable_Table / Function_Table的資料
+    │
+    │
+    └─ 判斷成敘述(五大功能)
+	       ├─ ListAllVariables : 列出所有的variable
+	       ├─ ListAllFunctions : 列出所有的function
+	       ├─ ListVariable : 列出指令variable
+	       ├─ ListFunction : 列出指定function及內容
+	       └─ Done : 結束讀入
+
+
+C. 運算式處理
+    ├─ 前置處理 : 整合array、賦予運算子權重等
+    ├─ 中序轉後序
+    ├─ 特別處理 : 解決賦值、三元運算子問題
+    ├─ 後序式運算 : 除了運算外還要解決array的index問題、並馬上更新Table裡面的值
+    └─ if / while
+
+
+D. Token 分析
+    ├─ 讀入Token
+    ├─ 解決lexical error
+    └─ Token的分類處理
+	       ├─Delimeter
+	       ├─TokenType
+	       ├─Constant
+	       ├─Number
+	       └─Identifier
+
+
+
+

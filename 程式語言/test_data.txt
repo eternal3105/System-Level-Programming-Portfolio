@@ -1,0 +1,701 @@
+project 2
+
+------------------------------------------------------------------------
+1
+int x ;
+x=10;
+cout << x ;
+Done(); int x ; cout << y ;
+x = 10 ;"
+
+
+------------------------------------------------------------------------
+1
+Taipei, Taiwan ;         // undeclared identifier
+string str, str1 ;       // comment should be skipped
+
+
+string str3
+      , 
+      str4 ;       // comment should be skipped
+char chArray[30] ;
+cin >> chArray1 ;  // undeclared identifier
+cin >> chArray ;
+ListAllVariables();
+str = ""This is a fine day.\n"" 
+      + chArray 
+      + ""\n"" 
+      ;
+str = str + ""Isn't it?\n"" ;
+cout << str ;
+str = ""This is a fine day.\n"" 
+      + ""\n""
+      + chArray1   // undeclared identifier within a statement
+                   // once an input error occurs, parsing
+                   // restarts from the next line
+      ;      // a null statement is nevertheless ""executable""
+float hello;
+int x;
+hello = 20 / hello
+        +           // comment should be skipped
+        ( ( x - hello ) / 34.5 
+          - 17   // to the right is comment : + ( hello - x
+          - ( hello - x ) 
+        ) 
+        ;
+x=(x+8)/hello/(hello-8.0);
+cout << ""Value of 'hello' is now : "" 
+     << hello 
+     << ""\n"" 
+     ;
+hello = 20
+        * 
+        ( ( x - hello135 ) / 34.5  // undeclared identifier
+          - 17   // input restarts from this line
+          - ( hello - x ) 
+        )        // but then, this ')' is unexpected
+        ;        // a null statement is fine though
+ListAllVariables();
+ListVariable( ""hello"" ) ;
+Done();"
+
+
+------------------------------------------------------------------------
+1
+String str ;
+string str ;       // comment should be skipped
+char 
+
+chArray[30] ;
+cin >> chArray1 ;  // undeclared identifier
+cin >> chArray ;
+str = ""This is a fine day.\n"" 
+      + chArray 
+      + ""\n"" 
+      ;
+str = str + ""Isn't it?\n"" ;
+cout << str ;
+str = ""This is a fine day.\n"" 
+      + ""\n""
+      + chArray1   // undeclared identifier within a statement
+                   // once an input error occurs, parsing
+                   // restarts from the next line
+      ;      // a null statement is nevertheless ""executable""
+float hello ;
+int x ;
+hello = 20
+        *           // comment should be skipped
+        ( ( x - hello ) / 34.5 
+          - 17   // to the right is comment : + ( hello - x
+          - ( hello - x ) 
+        ) 
+        ;
+x=(x+8)/hello/(hello-8.0);
+cout << ""Value of 'hello' is now : "" 
+     << hello 
+     << ""\n"" 
+     ;
+hello = 20
+        * 
+        ( ( x - hello135 ) / 34.5  // undeclared identifier
+          - 17   // input restarts from this line
+          - ( hello - x ) 
+        )        // but then, this ')' is unexpected
+        ;        // a null statement is fine though
+Done();"
+
+
+------------------------------------------------------------------------
+1
+int first, second, max ;
+cin >> first >> second ;
+if ( ( first > second ) && ( second > 0 ) )
+  if ( second > -35 )
+    while ( max < 35 )
+      max = max + 5 ;
+  else 
+    max = second - 35 ;
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+if ( ( first > second ) && ( second > 0 ) )
+  if ( second > -35 )
+    max = 35 - second ;
+  else 
+    max = second - 35 }
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > 5 )
+    first = first + ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > second )
+    first = first + second ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+max = first > second ? first : second ;
+cout << ""Value of first is : "" << first << ""\n"" ;
+cout << ""Value of max is : "" << max << ""\n"" ;
+Done() ;"
+
+
+------------------------------------------------------------------------
+1
+int first ;
+int second, max ;
+cin >> First ;
+cin >> first 
+    >> second ;
+if ( ( first > second ) && ( second > 0 ) )
+  max = first ;
+else
+  max = second ;
+if ( ( first > second ) && ( second > 0 ) ) )
+  max = first ;
+else
+  max = second ;
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + sacond ;
+  max-- ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + second ;
+  max-- ;
+} // while ( max >= 0 )
+cout << ""Value of first is : "" << first << ""\n"" ;
+cout << ""Value of max is : "" << max << ""\n"" ;
+  ( first = max ) ;
+  ( ( first + max1
+    ) 
+  ) ;
+Done() ;"
+
+
+========================================================================
+project 3
+
+------------------------------------------------------------------------
+1
+  // preparation
+
+  int a1, a2, a3 ;
+  float f1, f2, f3 ;
+  bool b1, b2, b3 ;
+  string s1, s2, s3 ;
+  char c1, c2, c3 ;
+
+  // Problem 1 and 2 : test data 1/3 (viewable)
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  f1 = 1.5 ;
+  f2 = 0.25 ;
+  f3 = -0.125 ;
+  s1 = ""Hi"" ;
+  s2 = ""Hello"" ;
+  s3 = ""What"" ;
+  c1 = 'a' ;
+  c2 = 'b' ;
+  c3 = 'c' ;
+
+  // + - * / %
+  cout << ( a1 = a2+a3*3 ) << ""\n"" ;
+  cout << a1-305%a2 << ""\n"" ;
+  cout << ( a2 = 300/a2+a1 ) << ""\n"" ;  
+  cout << a1- -a2 << ""\n"" ;
+
+  // << >>
+  cout << a2 << ""\n"" ;
+  cout << ( a2 = a2 << 2 ) << ""\n"" ;
+  cout << ( a2 = a2 >> 2 ) << ""\n"" ;
+
+  // && || ! < <= > >=
+  cout << ( b1 = f1 > f2 ) << ""\n"" ;
+  cout << ( b2 = a1 >= a2 ) << ""\n"" ;
+  cout << ( b3 = b1 && b2 ) << ""\n"" ;
+
+  cout << ( b3 || a3 < a1 ) << ""\n"" ;
+  cout << ( b3 || b2 ) << ""\n"" ;
+  cout << ( b3 || !b2 ) << ""\n"" ;
+  
+  cout << ( true && a3 < a1 ) << ""\n"" ;
+  cout << ( true || b2 ) << ""\n"" ;
+  cout << ( b1 = false || !b2 ) << ""\n"" ;
+  cout << ( b1 || false ) << ""\n"" ;
+
+  // ==   !=
+  cout << ( a1 == a1*2-a1 ) << ""\n"" ;
+  cout << ( a1 != a1*2-a1 ) << ""\n"" ;
+  // cout << ( true && false == false ) << ""\n"" ; // '==' and '!=' should not be
+  // cout << ( true || true != false ) << ""\n"" ;  // applied to booleans
+  
+  // string
+  cout << ( s1 = s1 + "" "" + s2 ) << ""\n"" ;
+  cout << s1 << ""\n"" ;
+  cout << ( s3 = s3 + "" "" + c1 ) << ""\n"" ;
+  cout << s1 + ""\n"" + s3 << ""\n"" ;
+
+Done   (  
+  ) 
+     ;cout << 10 ; // Program execution
+  cout << 3+5 ;     // should not come here."
+
+
+------------------------------------------------------------------------
+1
+  // preparation
+
+  int a1, a2, a3 ;
+  float f1, f2, f3 ;
+  bool b1, b2, b3 ;
+  string s1, s2, s3 ;
+  char c1, c2, c3 ;
+
+  // Problem 2 : test data 2/3 (viewable) - similar to Problem 2 test 1
+
+  a1 = 15 ;
+  a2 = -25 ;
+  a3 = 35 ;
+  f1 = -2.5 ;
+  f2 = 3.25 ;
+  f3 = 0.125 ;
+  s1 = ""This"" ;
+  s2 = ""is"" ;
+  s3 = ""ICE!"" ;
+  c1 = 'w' ;
+  c2 = 'h' ;
+  c3 = 'y' ; 
+
+  // + - * / %
+  
+  cout << ( a3 = a1 = a2++ + -a3*3/2 ) << ""\n"" ;  
+  cout << a1-305%a2 << ""\n"" ;
+  cout << ( a2 += a3 = 300/a2+a1 ) << ""\n"" ;  
+  cout << ++a1- -a2 << ""\n"" ;
+  cout << ""a1 : "" << a1 << "" ; a2 : "" << a2 << "" ; a3 : "" << a3 << ""\n"" ;
+
+  // << >>
+  cout << ( a2 = a2 << 2 << 2 ) << ""\n"" ;
+  cout << ( a2 = a2 >> 3 ) << ""\n"" ;
+
+  // && || ! < <= > >=
+  cout << ( b1 = f1 - 200 > a2 ) << ""\n"" ;
+  cout << ( b2 = a1 >= a2 ) << ""\n"" ;
+  cout << ( b3 = !b1 && b2 ) << ""\n"" ;
+
+  cout << ( b3 || a3 != a1 ) << ""\n"" ;
+  cout << ( b1 = b3 && b2 ) << ""\n"" ;
+  cout << ( !b3 || !b2 ) << ""\n"" ;
+  
+  cout << ( b2 = true || a3 < a1 ) << ""\n"" ;
+  cout << ( true || b2 ) << ""\n"" ;
+  cout << ( b1 = false || !b2 ) << ""\n"" ;
+  cout << ( b1 || false ) << ""\n"" ;
+
+  // ==   !=
+  cout << ( a1 == f1*2-a1 ) << ""\n"" ;
+  cout << ( a1 != f1*2-a1 ) << ""\n"" ;
+  // cout << ( true && false == false ) << ""\n"" ; // '==' and '!=' should not be
+  // cout << ( true || true != false ) << ""\n"" ;  // applied to booleans
+  
+  // string
+  cout << ( s2 += s1 = s1 + "" "" + s2 ) << ""\n"" ;
+  cout << s2 << ""\n"" ;
+  cout << ( s3 = s3 + "" "" + c1 + c3 ) << ""\n"" ;
+  cout << s1 + ""\n"" + s3 << ""\n"" ;
+
+
+Done   (  
+  ) 
+     ;cout << 10 ; // Program execution
+  cout << 3+5 ;     // should not come here."
+
+
+------------------------------------------------------------------------
+1
+  // preparation
+
+  int a1, a2, a3 ;
+  float f1, f2, f3 ;
+  bool b1, b2, b3 ;
+  string s1, s2, s3 ;
+  char c1, c2, c3 ;
+  int a[10], b[10] ;
+  string s[10] ;
+  int i, j, k ;
+
+  // Problem 3 and 4 : test data 1/3 (viewable)
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  f1 = 1.5 ;
+  f2 = 0.25 ;
+  f3 = -0.125 ;
+  s1 = ""Hi"" ;
+  s2 = ""Hello"" ;
+  s3 = ""What"" ;
+  c1 = 'a' ;
+  c2 = 'b' ;
+  c3 = 'c' ;
+
+  a[0] = a[1] = a[2] = a[3] = a[4] = a[5] = a[6] = a[7] = 10 ;
+  b[0] = b[1] = b[2] = b[3] = b[4] = b[5] = b[6] = b[7] = 20 ;
+  i = j = k = 0 ;
+  s[0] = s[1] = s[2] = s[3] = s[4] = s[5] = s[6] = s[7] = ""OK"" ;
+
+  // + - * / %
+  cout << ( a[1] = a2 = a[2]+a[3]*a[3]-a1-a2-a[4]%50 ) << ""\n"" ;
+  cout << a[1]-305%a[2]-300/a[3]- ( a[3] = a2-a[4] ) %50 << ""\n"" ;
+  cout << a[1]-305%a[2]- ( a[3] = a2-a[4] ) %50-300/a[3] << ""\n"" ;
+  cout << ( a[2] = 300 / ( a[2]+a[1] ) +a1 ) +10+a[2] << ""\n"" ;  
+  cout << a[1]- - ( a[2]-a3*a[3] ) << ""\n"" ;
+
+  // << >>
+  cout << a[2] << ""\n"" ;
+  cout << ( a[2] = ( a[2] << 2 ) -a2-a[1]/2*3%25 ) << ""\n"" ;
+  cout << ( a[1] = a[2] = ( a[2] >> 2 ) + a[1]%a[2] ) << ""\n"" ;
+
+  // && || ! < <= > >=  ==   !=
+  cout << ( b1 = f1-a[2]*f1+a2 > f2-a[2]*f1+a2 ) << ""\n"" ;
+  cout << ( b2 = a[1]+a[2] >= a[3]%35 ) << ""\n"" ;
+  cout << ( b3 = b1 && ( b2 || a[3] >= a[2]%a[1] ) ) << ""\n"" ;
+  cout << ( b3 = b3 || ( a[1]*a3 < a[2]*a2 && ! ( b2 || a[3] >= a[2]%a[1] ) ) ) << ""\n"" ;
+
+  cout << ( ! ( a[1] == a[1]*2-a[1] ) && b3 ) << ""\n"" ;
+  cout << ( b3 || a[1] != a[1]*2-a[1] || ! ( a2 > a[2] ) ) << ""\n"" ;
+  cout << ( b3 || ( a[1] != a[1]*2-a[1] && true ) || ! ( a2 > a[2] || false ) ) << ""\n"" ;
+  // cout << ( true && false == false ) << ""\n"" ; // '==' and '!=' should not be
+  // cout << ( true || true != false ) << ""\n"" ;  // applied to booleans
+
+  // string
+  cout << ( s[2] = ( s[1] = s[1] + "" "" + s[2] ) + ""!Hello!"" + s[1] ) << ""\n"" ;
+  cout << s[1] << ""\n"" << s[2] << ""\n"" ;
+  cout << ( s[3] = s[2] + c1 + ( s[2] = s1 + s3 ) + s3 + s[2] ) << ""\n"" ;
+  cout << s[1] + ""\n"" + s[2] + ""\n"" + s[3] << ""\n"" ;
+
+Done   (  
+  ) 
+     ;cout << 10 ; // Program execution
+  cout << 3+5 ;     // should not come here."
+
+
+------------------------------------------------------------------------
+1
+  // preparation
+
+  int x, y, z ; // to be declared as block-locals again
+  x = 11 ;
+  y = 22 ;
+  z = 33 ;
+
+  int a1, a2, a3 ;
+  float f1, f2, f3 ;
+  bool b1, b2, b3 ;
+  string s1, s2, s3 ;
+  char c1, c2, c3 ;
+  int a[10], b[10] ;
+  string s[10] ;
+  int i, j, k ;
+
+  // Problem 7 and 8 : test data 1/3 (viewable)
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  f1 = 1.5 ;
+  f2 = 0.25 ;
+  f3 = -0.125 ;
+  s1 = ""Hi"" ;
+  s2 = ""Hello"" ;
+  s3 = ""What"" ;
+  c1 = 'a' ;
+  c2 = 'b' ;
+  c3 = 'c' ;
+
+  a[0] = a[1] = a[2] = a[3] = a[4] = a[5] = a[6] = a[7] = 10 ;
+  b[0] = b[1] = b[2] = b[3] = b[4] = b[5] = b[6] = b[7] = 20 ;
+  i = j = k = 0 ;
+  s[0] = s[1] = s[2] = s[3] = s[4] = s[5] = s[6] = s[7] = ""OK"" ;
+
+  i = -3 ;
+
+  while ( a1 < a2 ) {
+    a3 += a1*2+ ( a2-a1 ) *i++ ;
+    a1++ ;
+    cout << ""Value of a3 : "" << a3 << ""\n"" ;
+  } // while ( a1 < a2 )
+
+  if ( a3 > a1*a2 ) {
+    a1 += a3 - a2 ;
+    a2 -= a2 - a3 ;
+  } // if a3 > a1*a2
+  else { // a3 <= a1*a2
+    a2 += a3 - a2 ;
+    a1 -= a2 - a3 ;
+  } // else a3 <= a1*a2
+
+  cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" a3 : "" << a3 << ""\n"" ;
+  cout << ""------------------------------------------\n"" ;
+  cout << ""x : "" << x << "" y : "" << y << "" z : "" << z << ""\n"" ;
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  i = -3 ;
+
+  while ( a1 < a2 ) {
+    int x, y ;
+    x = y = 100 ;
+    a3 += a1*2+ ( a2-a1 ) *i++ ;
+    x += ++a1 + ++z ;
+    cout << ""a3 : "" << a3 << "" x : "" << x << "" z : "" << z << ""\n"" ;
+  } // while ( a1 < a2 )
+
+  cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" a3 : "" << a3 << "" x : "" << x << ""\n"" ;
+
+  if ( a3 > a1*a2 ) {
+    int x, y ;
+    x = y = 200 ;
+    y = a1 += a3 - a2 + x ;
+    a2 -= z = a2 - a3 + y ;
+    cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  } // if a3 > a1*a2
+  else { // a3 <= a1*a2
+    int x, y ;
+    x = y = 300 ;
+    y = a2 += a3 - a2 + x ;
+    a1 -= z = a2 - a3 + y ;
+    cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  } // else a3 <= a1*a2
+
+  cout << ""x : "" << x << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  cout << ""------------------------------------------\n"" ;
+
+  // + - * / %
+  cout << ( a[1] = a2 = a[2]+a[3]*a[3]-a1-a2-a[4]%50 ) << ""\n"" ;
+  cout << a[1]-305%a[2]-300/a[3]- ( a[3] = a2-a[4] ) %50 << ""\n"" ;
+  cout << a[1]-305%a[2]- ( a[3] = a2-a[4] ) %50-300/a[3] << ""\n"" ;
+  cout << ( a[2] = 300 / ( a[2]+a[1] ) +a1 ) +10+a[2] << ""\n"" ;  
+  cout << a[1]- - ( a[2]-a3*a[3] ) << ""\n"" ;
+
+  // << >>
+  cout << a[2] << ""\n"" ;
+  cout << ( a[2] = ( a[2] << 2 ) -a2-a[1]/2*3%25 ) << ""\n"" ;
+  cout << ( a[1] = a[2] = ( a[2] >> 2 ) + a[1]%a[2] ) << ""\n"" ;
+
+  // && || ! < <= > >=  ==   !=
+  cout << ( b1 = f1-a[2]*f1+a2 > f2-a[2]*f1+a2 ) << ""\n"" ;
+  cout << ( b2 = a[1]+a[2] >= a[3]%35 ) << ""\n"" ;
+  cout << ( b3 = b1 && ( b2 || a[3] >= a[2]%a[1] ) ) << ""\n"" ;
+  cout << ( b3 = b3 || ( a[1]*a3 < a[2]*a2 && ! ( b2 || a[3] >= a[2]%a[1] ) ) ) << ""\n"" ;
+
+  cout << ""==============================================\n"" ;
+  // simple conditional expression and comma expression
+  cout << ""a1 : "" << a1 << "" a[2] : "" << a[2] << "" -- "" 
+       << ( ( a1 > a[2] ) ? a1 += 50 : a[2] -= 30 ) << "" -- ""
+       << ""a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n""   ;
+  cout << ( a1 += a[2] + 10, a[2] += a1 - 20, a1 += a[2] + 30 ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n""   ;
+  cout << ( a[2] += ( a1 + a[3] > a[2] + a[4] ) ? 70 : -70 ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n"" ;
+  cout << ( a1 += ( a1 + a[3] > a[2] + a[4] ) ? 90 + a[3] : -90 - a[4] ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n"" ;
+  cout << ""==============================================\n"" ;
+
+  // string
+  cout << ( s[2] = ( s[1] = s[1] + "" "" + s[2] ) + ""!Hello!"" + s[1] ) << ""\n"" ;
+  cout << s[1] << ""\n"" << s[2] << ""\n"" ;
+  cout << ( s[3] = s[2] + c1 + ( s[2] = s1 + s3 ) + s3 + s[2] ) << ""\n"" ;
+  cout << s[1] + ""\n"" + s[2] + ""\n"" + s[3] << ""\n"" ;
+
+Done   (  
+  ) 
+     ;cout << 10 ; // Program execution
+  cout << 3+5 ;     // should not come here."
+
+
+------------------------------------------------------------------------
+1
+  // preparation
+
+  int x, y, z ; // to be declared as block-locals again
+  x = 11 ;
+  y = 22 ;
+  z = 33 ;
+
+  int a1, a2, a3 ;
+  float f1, f2, f3 ;
+  bool b1, b2, b3 ;
+  string s1, s2, s3 ;
+  char c1, c2, c3 ;
+  int a[10], b[10] ;
+  string s[10] ;
+  int i, j, k ;
+
+  // Problem 10 : test data 2/3 (viewable) - similar to Prob. 10 test 1
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  f1 = 1.5 ;
+  f2 = 0.25 ;
+  f3 = -0.125 ;
+  s1 = ""Hi"" ;
+  s2 = ""Hello"" ;
+  s3 = ""What"" ;
+  c1 = 'a' ;
+  c2 = 'b' ;
+  c3 = 'c' ;
+
+  i = j = k = 0 ;
+
+  i = 0 ;
+  while ( i < 10 ) {
+    a[i] = i*10 ;
+    b[i] = i*20 ;
+    s[i] = ""OK"" ;
+    i++ ;
+  } // while ( i < 10 )
+
+  // a[0] = a[1] = a[2] = a[3] = a[4] = a[5] = a[6] = a[7] = 10 ;
+  // b[0] = b[1] = b[2] = b[3] = b[4] = b[5] = b[6] = b[7] = 20 ;
+  // s[0] = s[1] = s[2] = s[3] = s[4] = s[5] = s[6] = s[7] = ""OK"" ;
+
+  // + - * / %
+  cout << ( a[1] = a2 = a[2]+a[3]*a[3]-a1-a2-a[4]%50 ) << ""\n"" ;
+  cout << a[1]-305%a[2]-300/a[3]- ( a[3] = a2-a[4] ) %50 << ""\n"" ;
+  cout << a[1]-305%a[2]- ( a[3] = a2-a[4] ) %50-300/a[3] << ""\n"" ;
+  cout << ( a[2] = 300 / ( a[2]+a[1] ) +a1 ) +10+a[2] << ""\n"" ;  
+  cout << a[1]- - ( a[2]-a3*a[3] ) << ""\n"" ;
+
+  // << >>
+  cout << a[2] << ""\n"" ;
+  cout << ( a[2] = ( a[2] << 2 ) -a2-a[1]/2*3%25 ) << ""\n"" ;
+  cout << ( a[1] = a[2] = ( a[2] >> 2 ) + a[1]%a[2] ) << ""\n"" ;
+
+  // && || ! < <= > >=  ==   !=
+  cout << ( b1 = f1-a[2]*f1+a2 > f2-a[2]*f1+a2 ) << ""\n"" ;
+  cout << ( b2 = a[1]+a[2] >= a[3]%35 ) << ""\n"" ;
+  cout << ( b3 = b1 && ( b2 || a[3] >= a[2]%a[1] ) ) << ""\n"" ;
+  cout << ( b3 = b3 || ( a[1]*a3 < a[2]*a2 && ! ( b2 || a[3] >= a[2]%a[1] ) ) ) << ""\n"" ;
+
+  cout << ""==============================================\n"" ;
+  // simple conditional expression and comma expression
+  cout << ""a1 : "" << a1 << "" a[2] : "" << a[2] << "" -- "" 
+       << ( ( a1 > a[2] ) ? a1 += 50 : a[2] -= 30 ) << "" -- ""
+       << ""a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n""   ;
+  cout << ( a1 += a[2] + 10, a[2] += a1 - 20, a1 += a[2] + 30 ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n""   ;
+  cout << ( a[2] += ( a1 + a[3] > a[2] + a[4] ) ? 70 : -70 ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n"" ;
+  cout << ( a1 += ( a1 + a[3] > a[2] + a[4] ) ? 90 + a[3] : -90 - a[4] ) 
+       << "" a1 : "" << a1 << "" a[2] : "" << a[2] << ""\n"" ;
+  cout << ""==============================================\n"" ;
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  i = -1 ;
+  int original ;
+  original = a[1] + a[2] ;
+
+  while ( 2* ( original+10+a[3] ) >= 2* ( a[1]+a[2] ) ) {
+    i = i * -1 ;
+    a3 += a2*2- ( a[2]-a1+5 ) * i ;
+    a[1] = a[1]+151, a[2]++, a[2]++ ;
+    cout << ""a3 : "" << a3 << "" a[1] : "" << a[1] << ""\n"" ;
+  } // while ( 2* ( original+10 ) >= 2* ( a[1]+a[2] ) )
+
+  if ( a3*a[2] + a2*a[1] > a[3]* ( a[1]+a2%15 ) ) {
+    a1 += a2 = a3 - a2 + a[1] - a1 ;
+    a2 -= a3 = a2 - a3 + a[1] - a1 ;
+  } // if a3 > a1*a2
+  else { // a3*a3 <= a3*( a1+a2%10 )
+    a2 += a1 = a3 - a2 + a[1] - a1 ;
+    a1 -= a3 = a2 - a3 + a[1] - a1 ;
+  } // else a3*a3 <= a3*( a1+a2%10 )
+
+  cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" a3 : "" << a3 << ""\n"" ;
+  cout << ""------------------------------------------\n"" ;
+  cout << ""x : "" << x << "" y : "" << y << "" z : "" << z << ""\n"" ;
+
+  a1 = 10 ;
+  a2 = 20 ;
+  a3 = -30 ;
+  a[3] = 53 ;
+  original = a[1] + a[2] ;
+  i = 0 ;
+
+  while ( 2* ( original+10+a[3] ) >= 2* ( a[1]+a[2] ) ) {
+    int x, y, h ;
+    x = y = h = 100 ;
+    a3 += a[i++%7]*2 + ( a2-a1+5*h ) - ++i ;
+    x += ( a[1] = a[1]+7 ) + ++z - ( a[2] += 5 ) ;
+    cout << ""a3 : "" << a3 << "" x : "" << x << "" z : "" << z << ""\n"" ;
+  } // while ( a1 < a2 )
+
+  cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" a3 : "" << a3 << "" x : "" << x << ""\n"" ;
+
+  if ( a3*a[2] + a2*a[1] > a[3]* ( a[1]+a2%15 ) ) {
+    int x, h ;
+    x = h = z ;
+    y = a1 += a[ ( i+3 ) %8 ] - a2%x + z* ( h++ -20 ) ;
+    a2 -= z = a[ ( i+2 ) %8 ] - a3%y + z* ( h++ -20 ) ;
+    cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  } // if a3 > a1*a2
+  else { // a3 <= a1*a2
+    int x, h ;
+    x = h = y ;
+    y = a2 += a[ ( i+3 ) %8 ] - a2%x + z* ( h-- -20 ) ;
+    a1 -= z = a[ ( i+2 ) %8 ] - a3%y + z* ( h-- -20 ) ;
+    cout << ""a1 : "" << a1 << "" a2 : "" << a2 << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  } // else a3 <= a1*a2
+
+  cout << ""x : "" << x << "" y : "" << y << "" z : "" << z << ""\n"" ;
+  cout << ""------------------------------------------\n"" ;
+
+  // string
+  cout << ( s[2] = ( s[1] = s[1] + "" "" + s[2] ) + ""!Hello!"" + s[1] ) << ""\n"" ;
+  cout << s[1] << ""\n"" << s[2] << ""\n"" ;
+  cout << ( s[3] = s[2] + c1 + ( s[2] = s1 + s3 ) + s3 + s[2] ) << ""\n"" ;
+  cout << s[1] + ""\n"" + s[2] + ""\n"" + s[3] << ""\n"" ;
+
+Done   (  
+  ) 
+     ;cout << 10 ; // Program execution
+  cout << 3+5 ;     // should not come here."
+
+
+
+
+
+
