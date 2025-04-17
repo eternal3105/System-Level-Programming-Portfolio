@@ -6,13 +6,13 @@
 
 ## 📁 專案結構
 System-Level Programming Portfolio/
-├── README.md
-├── 資料結構/
-│   └── Maze、queue、balance tree、hash、graph...
-├── 程式設計/
-│   ├── sic_assembler
-│   └── compiler_frontend
-└── 程式語言/
+ ├── README.md
+ ├── 資料結構/
+ │   └── Maze、queue、balance tree、hash、graph...
+ ├── 程式設計/
+ │   ├── sic_assembler
+ │   └── compiler_frontend
+ └── 程式語言/
      └── PL_Project.cpp、程式設計說明.txt
 
 ---
